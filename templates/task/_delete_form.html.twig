@@ -1,0 +1,7 @@
+<form action="{{ url('task_delete', {id: task.id}) }}" method="post" data-confirmation="true" id="delete-form">
+    <input type="hidden" name="token" value="{{ csrf_token('delete') }}" />
+    <button type="submit" class="btn btn-sm btn-primary btn-danger">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+        {{ 'action.delete_task'|trans }}
+    </button>
+</form>

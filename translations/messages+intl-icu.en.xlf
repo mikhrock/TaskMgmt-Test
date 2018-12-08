@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="title.task_list">
+                <source>title.task_list</source>
+                <target>Task List</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage">
+                <source>menu.homepage</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="menu.back_to_task">
+                <source>menu.back_to_task</source>
+                <target>Back</target>
+            </trans-unit>
+            <trans-unit id="label.name">
+                <source>label.name</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="label.description">
+                <source>label.description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="label.start_time">
+                <source>label.start_time</source>
+                <target>Start Time</target>
+            </trans-unit>
+            <trans-unit id="label.end_time">
+                <source>label.end_time</source>
+                <target>End Time</target>
+            </trans-unit>
+            <trans-unit id="label.assigned_person">
+                <source>label.assigned_person</source>
+                <target>Assigned Person</target>
+            </trans-unit>
+            <trans-unit id="label.status">
+                <source>label.status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="label.actions">
+                <source>label.actions</source>
+                <target>Actions</target>
+            </trans-unit>
+            <trans-unit id="action.create_task">
+                <source>action.create_task</source>
+                <target>Add New Task</target>
+            </trans-unit>
+            <trans-unit id="action.edit">
+                <source>action.edit</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="title.task_new">
+                <source>title.task_new</source>
+                <target>New Task</target>
+            </trans-unit>
+            <trans-unit id="title.edit_task">
+                <source>title.edit_task</source>
+                <target>Edit Task</target>
+            </trans-unit>
+            <trans-unit id="label.create_task">
+                <source>label.create_task</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_list">
+                <source>action.back_to_list</source>
+                <target>Back</target>
+            </trans-unit>
+            <trans-unit id="action.save">
+                <source>action.save</source>
+                <target>Save</target>
+            </trans-unit>
+            <trans-unit id="action.delete_task">
+                <source>action.delete_task</source>
+                <target>Delete</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

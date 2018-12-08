@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('css/admin') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('js/admin') }}
+{% endblock %}
+
+{% block header_navigation_links %}
+    <li>
+        <a href="{{ path('task_index') }}">
+            <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.back_to_task'|trans }}
+        </a>
+    </li>
+{% endblock %}

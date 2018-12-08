@@ -1,0 +1,21 @@
+{% extends 'layout.html.twig' %}
+
+{% block body_id 'task_edit' %}
+
+{% block main %}
+    <h1>{{ 'title.edit_task'|trans({'%id%': task.id}) }}</h1>
+
+    {{ include('task/_form.html.twig', {
+        form: form,
+        button_label: 'action.save'|trans,
+        include_back_to_home_link: true,
+    }, with_context = false) }}
+{% endblock %}
+
+{% block sidebar %}
+    <div class="section actions">
+        
+    </div>
+
+    {{ parent() }}
+{% endblock %}
